@@ -1,5 +1,24 @@
 # Flowchart Samples
 
+## Node Type Naming Proposal
+
+```mermaid
+flowchart BT
+    A[Process - Rectangle]
+    B(Event - Rounded Rectangle)
+    C([Terminal Point - Stadium])
+    D{Decision - Diamond}
+    E((Start - Circle))
+    F{{Prepare Conditional - Hexagon}}
+    G[[Subprocess - Framed Rectangle]]
+    H[(Database - Cylinder)]
+    I>Paper Tape - Flag]
+    J[/Data Input/Output - Lean Right/]
+    K[\Data Input/Output - Lean Left\]
+    L[/Priority Action - Trapezoid Base Bottom\]
+    M[\Manual Operation - Trapezoid Base Top/]
+```
+
 ## TD With Shapes, Labels, Styles And Subgraphs
 
 ```mermaid
