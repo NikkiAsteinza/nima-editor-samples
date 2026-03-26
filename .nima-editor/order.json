@@ -1,8 +1,19 @@
 {
   "filesByDirectory": {
     "": [
+      "blocks",
       "mermaid",
+      "images",
+      "export-showcase",
       "README.md"
+    ],
+    "blocks": [
+      "00-capabilities-index.md",
+      "01-portable-markdown.md",
+      "02-technical-blocks.md",
+      "03-katex-formulas.md",
+      "04-columns-and-images.md",
+      "05-product-workflow.md"
     ],
     "mermaid": [
       "flowchart.md",
@@ -19,7 +30,31 @@
       "12-gitgraph.md",
       "13-xychart-beta.md",
       "README.md"
+    ],
+    "images": [
+      "nima-capabilities.svg"
+    ],
+    "export-showcase": [
+      "summary.md",
+      "01-core-workflow",
+      "02-technical-content",
+      "03-publishing",
+      "appendix.md"
+    ],
+    "export-showcase/01-core-workflow": [
+      "summary.md",
+      "editor-and-review.md",
+      "git-and-history.md"
+    ],
+    "export-showcase/02-technical-content": [
+      "summary.md",
+      "diagrams-formulas-and-layout.md"
+    ],
+    "export-showcase/03-publishing": [
+      "summary.md",
+      "export-and-delivery.md"
     ]
   },
-  "iconsByPath": {}
+  "iconsByPath": {},
+  "labelsByPath": {}
 }
