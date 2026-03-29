@@ -2,18 +2,10 @@
   "filesByDirectory": {
     "": [
       "blocks",
+      "mix.md",
       "mermaid",
       "images",
-      "export-showcase",
-      "README.md"
-    ],
-    "blocks": [
-      "00-capabilities-index.md",
-      "01-portable-markdown.md",
-      "02-technical-blocks.md",
-      "03-katex-formulas.md",
-      "04-columns-and-images.md",
-      "05-product-workflow.md"
+      "export-showcase"
     ],
     "mermaid": [
       "flowchart.md",
@@ -28,33 +20,82 @@
       "10-mindmap.md",
       "11-timeline.md",
       "12-gitgraph.md",
-      "13-xychart-beta.md",
-      "README.md"
+      "13-xychart-beta.md"
     ],
     "images": [
-      "nima-capabilities.svg"
+      "Test.png",
+      "nima-capabilities.svg",
+      "sssss.png"
     ],
     "export-showcase": [
-      "summary.md",
       "01-core-workflow",
       "02-technical-content",
       "03-publishing",
-      "appendix.md"
+      "appendix.md",
+      "summary.md"
+    ],
+    "blocks": [
+      "00-capabilities-index.md",
+      "01-portable-markdown.md",
+      "02-technical-blocks.md",
+      "03-katex-formulas.md",
+      "04-columns-and-images.md",
+      "05-product-workflow.md"
     ],
     "export-showcase/01-core-workflow": [
-      "summary.md",
       "editor-and-review.md",
-      "git-and-history.md"
+      "git-and-history.md",
+      "summary.md"
     ],
     "export-showcase/02-technical-content": [
-      "summary.md",
-      "diagrams-formulas-and-layout.md"
+      "diagrams-formulas-and-layout.md",
+      "summary.md"
     ],
     "export-showcase/03-publishing": [
-      "summary.md",
-      "export-and-delivery.md"
+      "export-and-delivery.md",
+      "summary.md"
     ]
   },
   "iconsByPath": {},
-  "labelsByPath": {}
+  "labelsByPath": {
+    "blocks": "Content blocks",
+    "blocks/00-capabilities-index.md": "Capability index",
+    "blocks/01-portable-markdown.md": "Portable markdown",
+    "blocks/02-technical-blocks.md": "Technical blocks",
+    "blocks/03-katex-formulas.md": "KaTeX formulas",
+    "blocks/04-columns-and-images.md": "Columns and images",
+    "blocks/05-product-workflow.md": "Product workflow",
+    "mix.md": "Mixed samples",
+    "mermaid": "Mermaid",
+    "mermaid/flowchart.md": "Flowchart",
+    "mermaid/graph.md": "Graph",
+    "mermaid/03-sequence-diagram.md": "Sequence diagram",
+    "mermaid/04-class-diagram.md": "Class diagram",
+    "mermaid/05-state-diagram-v2.md": "State diagram v2",
+    "mermaid/06-er-diagram.md": "ER diagram",
+    "mermaid/07-pie.md": "Pie chart",
+    "mermaid/08-gantt.md": "Gantt",
+    "mermaid/09-journey.md": "Journey",
+    "mermaid/10-mindmap.md": "Mindmap",
+    "mermaid/11-timeline.md": "Timeline",
+    "mermaid/12-gitgraph.md": "Gitgraph",
+    "mermaid/13-xychart-beta.md": "XY chart beta",
+    "images": "Images",
+    "images/Test.png": "Test image",
+    "images/nima-capabilities.svg": "Nima capabilities",
+    "images/sssss.png": "Sample image 2",
+    "export-showcase": "Export showcase",
+    "export-showcase/01-core-workflow": "Core workflow",
+    "export-showcase/01-core-workflow/editor-and-review.md": "Editor and review",
+    "export-showcase/01-core-workflow/git-and-history.md": "Git and history",
+    "export-showcase/01-core-workflow/summary.md": "Core workflow summary",
+    "export-showcase/02-technical-content": "Technical content",
+    "export-showcase/02-technical-content/diagrams-formulas-and-layout.md": "Diagrams, formulas and layout",
+    "export-showcase/02-technical-content/summary.md": "Technical content summary",
+    "export-showcase/03-publishing": "Publishing",
+    "export-showcase/03-publishing/export-and-delivery.md": "Export and delivery",
+    "export-showcase/03-publishing/summary.md": "Publishing summary",
+    "export-showcase/appendix.md": "Appendix",
+    "export-showcase/summary.md": "Showcase summary"
+  }
 }
