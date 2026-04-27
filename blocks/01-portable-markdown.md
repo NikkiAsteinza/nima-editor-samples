@@ -4,7 +4,7 @@ Este archivo esta pensado para validar que la base del editor sigue siendo Markd
 
 ## Formato inline
 
-Puedes seleccionar este parrafo para probar **bold**, *italic*, ~~strikethrough~~, `inline code` y <u>underline</u>.
+Puedes seleccionar este parrafo para probar **bold**, *italic*, strikethrough, `inline code` y underline.
 
 Tambien puedes insertar un [enlace relativo](./02-technical-blocks.md) y comprobar que sigue siendo portable fuera del editor.
 
@@ -31,10 +31,10 @@ Tambien puedes insertar un [enlace relativo](./02-technical-blocks.md) y comprob
 
 ## Checklist
 
-- [x] Markdown legible
-- [x] Callouts visibles
-- [ ] Probar el cambio entre modo texto y modo enriquecido
-- [ ] Agregar un item nuevo
+- Markdown legible
+- Callouts visibles
+- Probar el cambio entre modo texto y modo enriquecido
+- Agregar un item nuevo
 
 ## Cita
 
@@ -48,3 +48,19 @@ Tambien puedes insertar un [enlace relativo](./02-technical-blocks.md) y comprob
 | Lista | roundtrip limpio |
 | Callout | render y export |
 | Link | navegacion interna |
+
+```objecttree
+Objects/
+  RPS4000/
+    Status
+      IsRunning :: Boolean
+      TemperatureC :: Float
+      FirmwareVersion :: String
+    Targets[]
+      TargetID :: UInt32
+      Range_m :: Float
+      Velocity_ms :: Float
+      Azimuth_deg :: Float
+      SNR_dB :: Float
+      Timestamp :: DateTime
+```

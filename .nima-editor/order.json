@@ -56,7 +56,9 @@
       "summary.md"
     ]
   },
-  "iconsByPath": {},
+  "iconsByPath": {
+    "mermaid/graph.md": "🤪"
+  },
   "labelsByPath": {
     "blocks": "Content blocks",
     "blocks/00-capabilities-index.md": "Capability index",

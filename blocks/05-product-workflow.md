@@ -2,16 +2,20 @@
 
 Esta pagina resume el flujo comercial y funcional que la matriz deja como posicion principal del producto:
 
-`write -> review -> sync -> export`
+`write -&amp;gt; review -&amp;gt; sync -&amp;gt; export`
 
 ## Diagrama del flujo
 
 ```mermaid
-flowchart LR
-    A[Write] --> B[Review]
-    B --> C[Sync]
-    C --> D[Export]
-    D --> E[Share]
+flowchart BT
+    A[Write]
+    B[Review]
+    C[Sync]
+    D[Export]
+    E[Share]
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ## Lo que este repo ya permite mostrar
@@ -40,4 +44,4 @@ flowchart LR
 5. Exporta `export-showcase/` como documento final.
 
 > [!TIP]
-> Si quieres probar la tesis `docs-as-code`, usa cualquier archivo de este repo para revisar diff, historial y commit sobre la rama actual.
+> Si quieres probar la tesis docs-as-code, usa cualquier archivo de este repo para revisar diff, historial y commit sobre la rama actual.

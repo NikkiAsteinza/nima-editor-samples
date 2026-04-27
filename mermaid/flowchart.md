@@ -17,40 +17,40 @@ flowchart BT
     K[\Data Input/Output - Lean Left\]
     L[/Priority Action - Trapezoid Base Bottom\]
     M[\Manual Operation - Trapezoid Base Top/]
+    N[N]
 ```
 
 ## TD With Shapes, Labels, Styles And Subgraphs
 
 ```mermaid
 flowchart TD
-    A[Rectangle] --> B(Rounded)
-    B --> C([Stadium])
-    C --> D{Decision}
-    D -->|yes| E((Circle))
-    D -.->|review| F{{Hexagon}}
-    E ==> G[[Subroutine]]
-    F --> H[(Database)]
-    G --> I[/Input Output/]
-    H --> J[\Alt Parallelogram\]
-    I --> K[/Trapezoid\]
-    J --> L[\Trapezoid Alt/]
-
+    H[(Database)]
+    I[/Input Output/]
+    J[\Alt Parallelogram\]
+    K[/Trapezoid\]
+    L[\Trapezoid Alt/]
+    SG1[Acquisition]
+    SG2[Processing]
     subgraph SG1 [Acquisition]
-        A
-        B
-        C
+        C([Stadium])
     end
-
     subgraph SG2 [Processing]
-        D
-        E
-        F
-        G
-        H
+        B(Rounded)
+        A[Rectangle]
+        D{Decision}
+        E((Circle))
+        F{{Hexagon}}
+        G[[Subroutine]]
     end
-
-    classDef highlight fill:#1f2937,stroke:#1f2937,color:#ffffff
-    class E,F,G highlight
+    B --> C
+    C --> D
+    D -->|yes| E
+    E ==> G
+    F --> H
+    G --> I
+    H --> J
+    I --> K
+    J --> L
     style SG1 fill:#1d2633,stroke:#1d2633,color:#dce7f7
     style SG2 fill:#2a2432,stroke:#2a2432,color:#f2e9ff
 ```
@@ -61,15 +61,20 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    Start([Start]) --> Validate{Valid?}
-    Validate -->|yes| Ship[Ship]
-    Validate -->|no| Reject[Reject]
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#ff1f1f'}}}%%
+Start([Start])
+    Validate{Valid?}
+    Ship[Ship]
+    Reject[Reject]
+    Validate -->|yes| Ship
+    Validate -->|no| Reject
 ```
 
 ### RL
 
 ```mermaid
 flowchart RL
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#ff1f1f'}}}%%
     Archive[Archive] --> Review[Review] --> Draft[Draft]
 ```
 

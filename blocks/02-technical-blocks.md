@@ -1,68 +1,21 @@
-# Technical Blocks
+# Table of Contents - mermaid
 
-Esta pagina reune bloques tecnicos que suelen activarse con tooling especifico dentro de Nima Editor.
+Path: `mermaid`
 
-> [!TIP]
-> Usa esta muestra para probar resaltado de codigo, acciones rapidas inline y edicion de tablas.
+Folders: 0 | Files: 13
 
-## Tabla editable
+## Contents
 
-| Bloque | Rol en documentacion tecnica | Zona de prueba |
-| --- | --- | --- |
-| Mermaid | diagramas y flujos | editar nodos y flechas |
-| KaTeX | formulas y expresiones | cambiar simbolos |
-| Codigo | ejemplos reproducibles | probar syntax highlight |
-| Tabla | especificaciones y matrices | insertar filas y columnas |
-
-## Codigo TypeScript
-
-```ts
-type ExportFormat = 'pdf' | 'html' | 'docx' | 'epub';
-
-interface PublishJob {
-  target: ExportFormat;
-  includeDiagrams: boolean;
-  includeImages: boolean;
-}
-
-const job: PublishJob = {
-  target: 'pdf',
-  includeDiagrams: true,
-  includeImages: true,
-};
-
-console.log(job);
-```
-
-## Codigo JSON
-
-```json
-{
-  "editorMode": "rich",
-  "syncStrategy": "current-branch",
-  "exportPreset": "manual-pdf"
-}
-```
-
-## Mermaid embebido
-
-```mermaid
-flowchart TD
-    Draft[Draft page] --> Review[Review preview]
-    Review --> Commit[Commit changes]
-    Commit --> Publish[Export deliverable]
-```
-
-Mas variaciones estan en [../mermaid/flowchart.md](../mermaid/flowchart.md).
-
-## Bloque de shell
-
-```bash
-git status
-git add docs/
-git commit -m "docs: update operator guide"
-git push
-```
-
-> [!NOTE]
-> Aunque Git es una capacidad de flujo y no de sintaxis, este tipo de bloque ayuda a comprobar documentacion tecnica realista.
+- [flowchart](mermaid/flowchart.md)
+- [graph](mermaid/graph.md)
+- [03-sequence-diagram](mermaid/03-sequence-diagram.md)
+- [04-class-diagram](mermaid/04-class-diagram.md)
+- [05-state-diagram-v2](mermaid/05-state-diagram-v2.md)
+- [06-er-diagram](mermaid/06-er-diagram.md)
+- [07-pie](mermaid/07-pie.md)
+- [08-gantt](mermaid/08-gantt.md)
+- [09-journey](mermaid/09-journey.md)
+- [10-mindmap](mermaid/10-mindmap.md)
+- [11-timeline](mermaid/11-timeline.md)
+- [12-gitgraph](mermaid/12-gitgraph.md)
+- [13-xychart-beta](mermaid/13-xychart-beta.md)

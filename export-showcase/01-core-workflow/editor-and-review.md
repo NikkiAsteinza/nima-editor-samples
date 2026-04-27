@@ -4,9 +4,9 @@ Nima Editor esta pensado para trabajar directamente sobre Markdown y carpetas no
 
 ## Validaciones utiles en esta pagina
 
-- cambio entre modo enriquecido y texto plano
-- preservacion de headings y listas
-- lectura del contenido antes de exportar
+1. cambio entre modo enriquecido y texto plano
+2. preservacion de headings y listas
+3. lectura del contenido antes de exportar
 
 ## Tabla de revision
 

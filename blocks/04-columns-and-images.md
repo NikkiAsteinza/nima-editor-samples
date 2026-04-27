@@ -1,56 +1,34 @@
-# Columns And Images
+# Table of Contents - mermaid
 
-Esta muestra esta pensada para validar layouts en columnas, imagenes con rutas relativas y controles visuales sobre assets del proyecto.
+Path: `mermaid`
 
-## Dos columnas
+Folders: 0 | Files: 13
 
-:::columns 2
+## Contents
 
-### Columna izquierda
+- [flowchart](mermaid/flowchart.md)
+- [graph](mermaid/graph.md)
+- [03-sequence-diagram](mermaid/03-sequence-diagram.md)
+- [04-class-diagram](mermaid/04-class-diagram.md)
+- [05-state-diagram-v2](mermaid/05-state-diagram-v2.md)
+- [06-er-diagram](mermaid/06-er-diagram.md)
+- [07-pie](mermaid/07-pie.md)
+- [08-gantt](mermaid/08-gantt.md)
+- [09-journey](mermaid/09-journey.md)
+- [10-mindmap](mermaid/10-mindmap.md)
+- [11-timeline](mermaid/11-timeline.md)
+- [12-gitgraph](mermaid/12-gitgraph.md)
+- [13-xychart-beta](mermaid/13-xychart-beta.md)
 
-- Markdown portable
-- Imagen con ruta relativa
-- Texto editable dentro del layout
-- Buen caso para probar drag, seleccion y roundtrip
-
-:::column
-
-### Columna derecha
-
-![Sample asset](../images/nima-capabilities.svg)
-
-Ruta usada: `../images/nima-capabilities.svg`
-
-:::endcolumns
-
-## Tres columnas
-
-:::columns 3
-
-### Write
-
-Contenido base en Markdown con headings, listas y enlaces.
-
-:::column
-
-### Review
-
-Preview, diff tecnico e historial por archivo.
-
-:::column
-
-### Deliver
-
-Export a PDF, HTML, DOCX o EPUB segun el flujo del proyecto.
-
-:::endcolumns
-
-## Acciones recomendadas para probar
-
-- Cambiar el ancho visual de la imagen
-- Duplicar la imagen desde la toolbar del bloque
-- Borrar una copia y guardar
-- Editar texto dentro de cada columna
-
-> [!NOTE]
-> La matriz marca la toolbar basica de imagen como base del producto, mientras que filtros visuales y controles mas ricos son una buena zona `Pro`.
+```mermaid
+flowchart TD
+    A[Start]
+    B{Decision}
+    C[Process A]
+    D[Process B]
+    E[End]
+    B -->|Yes| C
+    B -->|No| D
+    C --> E
+    D --> E
+```
