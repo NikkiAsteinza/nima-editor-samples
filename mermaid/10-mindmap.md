@@ -4,7 +4,7 @@
 
 ```mermaid
 mindmap
-  root((Nima Editor))
+  root((Notipad))
     Mermaid
       Flowchart
         Directions

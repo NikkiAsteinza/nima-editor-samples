@@ -17,11 +17,12 @@ Este arbol esta construido especificamente para demostrar la exportacion jerarqu
 
 ## Objetivo
 
-Este proyecto resume las capacidades visibles de Nima Editor dentro de una estructura apta para:
+Este proyecto resume las capacidades visibles de Notipad dentro de una estructura apta para:
 
 - navegacion jerarquica
 - lectura continua
-- exportacion a PDF, HTML, DOCX y EPUB
+- exportacion v1 a PDF y HTML
+- Word/DOCX y EPUB existen internamente, pero quedan fuera de la UI publica de v1 y se reservan como funcionalidades Pro futuras
 - validacion de headings y orden de secciones
 
 ```mermaid

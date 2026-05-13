@@ -38,7 +38,7 @@ Tambien puedes insertar un [enlace relativo](./02-technical-blocks.md) y comprob
 
 ## Cita
 
-> Nima anade tooling al Markdown. No reemplaza el formato base.
+> Notipad anade tooling al Markdown. No reemplaza el formato base.
 
 ## Tabla pequena
 

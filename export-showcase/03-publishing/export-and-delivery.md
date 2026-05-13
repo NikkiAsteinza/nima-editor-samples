@@ -20,8 +20,8 @@ La matriz recomienda una separacion clara:
 | --- | --- |
 | PDF | compartir version final |
 | HTML | publicar en web |
-| DOCX | iteracion con editores externos |
-| EPUB | lectura larga en dispositivos |
+
+Word/DOCX y EPUB quedan fuera del lanzamiento v1 aunque los exportadores existan internamente. Ambos quedan reservados como funcionalidades Pro futuras.
 
 > [!IMPORTANT]
 > Este arbol existe para que la exportacion por carpeta sea demostrable desde samples, no solo desde documentacion.

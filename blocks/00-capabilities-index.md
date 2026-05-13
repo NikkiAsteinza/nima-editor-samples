@@ -1,8 +1,8 @@
-# Nima Editor Capabilities Showcase
+# Notipad Capabilities Showcase
 
 ## Categorias cubiertas desde la matriz
 
-Este directorio traduce la matriz de features de Nima Editor a archivos que se pueden abrir, editar y exportar dentro del repo de samples.
+Este directorio traduce la matriz de features de Notipad a archivos que se pueden abrir, editar y exportar dentro del repo de samples.
 
 Mixed samples
 

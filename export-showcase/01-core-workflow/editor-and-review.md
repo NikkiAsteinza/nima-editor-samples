@@ -1,6 +1,6 @@
 # Editor And Review
 
-Nima Editor esta pensado para trabajar directamente sobre Markdown y carpetas normales.
+Notipad esta pensado para trabajar directamente sobre Markdown y carpetas normales.
 
 ## Validaciones utiles en esta pagina
 

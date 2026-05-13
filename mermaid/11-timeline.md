@@ -4,7 +4,7 @@
 
 ```mermaid
 timeline
-    title Nima Editor milestones
+    title Notipad milestones
     2026 Q1 : Sidebar resize
             : Git panel resize
             : Flowchart visual editor
