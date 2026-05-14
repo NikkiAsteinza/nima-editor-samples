@@ -1,0 +1,71 @@
+{
+  "filesByDirectory": {
+    "": [
+      "blocks",
+      "export-showcase",
+      "mermaid",
+      "images",
+      "mix.md"
+    ],
+    "blocks": [
+      "00-capabilities-index.md",
+      "01-portable-markdown.md",
+      "02-technical-blocks.md",
+      "03-katex-formulas.md",
+      "04-columns-and-images.md",
+      "05-product-workflow.md"
+    ],
+    "export-showcase": [
+      "01-core-workflow",
+      "02-technical-content",
+      "03-publishing",
+      "summary.md",
+      "appendix.md"
+    ],
+    "export-showcase/01-core-workflow": [
+      "editor-and-review.md",
+      "git-and-history.md",
+      "summary.md"
+    ],
+    "export-showcase/02-technical-content": [
+      "diagrams-formulas-and-layout.md",
+      "summary.md"
+    ],
+    "export-showcase/03-publishing": [
+      "export-and-delivery.md",
+      "summary.md"
+    ],
+    "mermaid": [
+      "flowchart.md",
+      "graph.md",
+      "03-sequence-diagram.md",
+      "04-class-diagram.md",
+      "05-state-diagram-v2.md",
+      "06-er-diagram.md",
+      "07-pie.md",
+      "08-gantt.md",
+      "09-journey.md",
+      "10-mindmap.md",
+      "11-timeline.md",
+      "12-gitgraph.md",
+      "13-xychart-beta.md"
+    ],
+    "images": [
+      "Test.png",
+      "nima-capabilities.svg",
+      "sssss.png"
+    ]
+  },
+  "iconsByPath": {},
+  "labelsByPath": {
+    "": "Notipad sample content",
+    "blocks": "Content block samples",
+    "export-showcase": "Export showcase",
+    "export-showcase/01-core-workflow": "Core workflow",
+    "export-showcase/02-technical-content": "Technical content",
+    "export-showcase/03-publishing": "Publishing",
+    "mermaid": "Mermaid diagram samples",
+    "images": "Sample images",
+    "mix.md": "Mixed sample document"
+  }
+}
