@@ -5,7 +5,10 @@
       "export-showcase",
       "mermaid",
       "images",
-      "mix.md"
+      "mix.md",
+      "Integrated Navigation & Positioning System — Naval Platform.md",
+      "Radar Signal Processing System — Industry 4.0.md",
+      "Tactical Communications & Electronic Warfare System.md"
     ],
     "blocks": [
       "00-capabilities-index.md",
@@ -58,7 +61,6 @@
   },
   "iconsByPath": {},
   "labelsByPath": {
-    "": "Notipad sample content",
     "blocks": "Content block samples",
     "export-showcase": "Export showcase",
     "export-showcase/01-core-workflow": "Core workflow",
@@ -67,5 +69,6 @@
     "mermaid": "Mermaid diagram samples",
     "images": "Sample images",
     "mix.md": "Mixed sample document"
-  }
+  },
+  "directoryMetadataByPath": {}
 }

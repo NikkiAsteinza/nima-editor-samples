@@ -3,7 +3,7 @@
 ## Node Type Naming Proposal
 
 ```mermaid
-flowchart BT
+flowchart RL
     A[Process - Rectangle]
     B(Event - Rounded Rectangle)
     C([Terminal Point - Stadium])
