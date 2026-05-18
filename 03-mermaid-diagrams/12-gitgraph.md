@@ -5,13 +5,17 @@
 ```mermaid
 gitGraph
     commit id: "A" tag: "v1.0.0"
-    branch feature_ui
-    checkout feature_ui
+    branch platform
+    checkout platform
     commit id: "B"
+    branch diagram_panels
+    checkout diagram_panels
     commit id: "C"
-    checkout main
+    checkout platform
     commit id: "D"
-    merge feature_ui tag: "v1.1.0"
+    merge diagram_panels tag: "panels"
+    checkout main
+    merge platform tag: "v1.1.0"
     branch hotfix
     checkout hotfix
     commit id: "E"

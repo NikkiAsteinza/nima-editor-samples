@@ -7,7 +7,7 @@ gantt
     title Editor delivery roadmap
     dateFormat  YYYY-MM-DD
     axisFormat  %d %b
-    tickInterval 1week
+    excludes    weekends
 
     section Discovery
     UX audit           :done,    d1, 2026-03-01, 3d

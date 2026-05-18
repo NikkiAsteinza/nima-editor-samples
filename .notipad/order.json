@@ -1,16 +1,24 @@
 {
   "filesByDirectory": {
     "": [
-      "blocks",
-      "export-showcase",
-      "mermaid",
-      "images",
-      "mix.md",
-      "Integrated Navigation & Positioning System — Naval Platform.md",
-      "Radar Signal Processing System — Industry 4.0.md",
-      "Tactical Communications & Electronic Warfare System.md"
+      "00-start-here",
+      "01-marketing-showcase",
+      "02-editor-capabilities",
+      "03-mermaid-diagrams",
+      "04-export-showcase",
+      "90-assets"
     ],
-    "blocks": [
+    "00-start-here": [
+      "README.md",
+      "mixed-sample-document.md"
+    ],
+    "01-marketing-showcase": [
+      "README.md",
+      "integrated-navigation-naval-platform.md",
+      "radar-signal-processing-industry-40.md",
+      "tactical-communications-electronic-warfare.md"
+    ],
+    "02-editor-capabilities": [
       "00-capabilities-index.md",
       "01-portable-markdown.md",
       "02-technical-blocks.md",
@@ -18,29 +26,10 @@
       "04-columns-and-images.md",
       "05-product-workflow.md"
     ],
-    "export-showcase": [
-      "01-core-workflow",
-      "02-technical-content",
-      "03-publishing",
-      "summary.md",
-      "appendix.md"
-    ],
-    "export-showcase/01-core-workflow": [
-      "editor-and-review.md",
-      "git-and-history.md",
-      "summary.md"
-    ],
-    "export-showcase/02-technical-content": [
-      "diagrams-formulas-and-layout.md",
-      "summary.md"
-    ],
-    "export-showcase/03-publishing": [
-      "export-and-delivery.md",
-      "summary.md"
-    ],
-    "mermaid": [
-      "flowchart.md",
-      "graph.md",
+    "03-mermaid-diagrams": [
+      "00-mermaid-index.md",
+      "01-flowchart.md",
+      "02-graph-alias.md",
       "03-sequence-diagram.md",
       "04-class-diagram.md",
       "05-state-diagram-v2.md",
@@ -51,9 +40,45 @@
       "10-mindmap.md",
       "11-timeline.md",
       "12-gitgraph.md",
-      "13-xychart-beta.md"
+      "13-xychart-beta.md",
+      "14-quadrant-chart.md",
+      "15-requirement-diagram.md",
+      "16-c4-diagram.md",
+      "17-zenuml.md",
+      "18-sankey.md",
+      "19-block-diagram.md",
+      "20-packet.md",
+      "21-kanban.md",
+      "22-architecture.md",
+      "23-radar.md",
+      "24-event-modeling.md",
+      "25-treemap.md",
+      "26-venn.md",
+      "27-ishikawa.md",
+      "28-wardley.md",
+      "29-treeview.md"
     ],
-    "images": [
+    "04-export-showcase": [
+      "01-core-workflow",
+      "02-technical-content",
+      "03-publishing",
+      "summary.md",
+      "appendix.md"
+    ],
+    "04-export-showcase/01-core-workflow": [
+      "editor-and-review.md",
+      "git-and-history.md",
+      "summary.md"
+    ],
+    "04-export-showcase/02-technical-content": [
+      "diagrams-formulas-and-layout.md",
+      "summary.md"
+    ],
+    "04-export-showcase/03-publishing": [
+      "export-and-delivery.md",
+      "summary.md"
+    ],
+    "90-assets": [
       "Test.png",
       "nima-capabilities.svg",
       "sssss.png"
@@ -61,14 +86,16 @@
   },
   "iconsByPath": {},
   "labelsByPath": {
-    "blocks": "Content block samples",
-    "export-showcase": "Export showcase",
-    "export-showcase/01-core-workflow": "Core workflow",
-    "export-showcase/02-technical-content": "Technical content",
-    "export-showcase/03-publishing": "Publishing",
-    "mermaid": "Mermaid diagram samples",
-    "images": "Sample images",
-    "mix.md": "Mixed sample document"
+    "00-start-here": "Start here",
+    "01-marketing-showcase": "Marketing showcase",
+    "02-editor-capabilities": "Editor capabilities",
+    "03-mermaid-diagrams": "Mermaid diagram samples",
+    "04-export-showcase": "Export showcase",
+    "04-export-showcase/01-core-workflow": "Core workflow",
+    "04-export-showcase/02-technical-content": "Technical content",
+    "04-export-showcase/03-publishing": "Publishing",
+    "90-assets": "Sample assets",
+    "00-start-here/mixed-sample-document.md": "Mixed sample document"
   },
   "directoryMetadataByPath": {}
 }

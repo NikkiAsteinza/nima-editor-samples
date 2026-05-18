@@ -5,8 +5,8 @@
 ```mermaid
 xychart-beta
     title "Release throughput"
-    x-axis ["Sprint 1", "Sprint 2", "Sprint 3", "Sprint 4"]
+    x-axis ["S1", "S2", "S3", "S4", "S5", "S6"]
     y-axis "Items" 0 --> 20
-    bar [6, 9, 12, 10]
-    line [4, 7, 11, 15]
+    bar [6, 9, 12, 10, 14, 16]
+    line [4, 7, 11, 15, 13, 18]
 ```
