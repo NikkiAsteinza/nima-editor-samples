@@ -151,13 +151,21 @@ where $K_{ffmd} = 5.33$ for $P_{HMI} = 10^{-5}$ per hour (IMO Performance Standa
 
 ```mermaid
 flowchart TD
-    A[GNSS Raw Measurements] --> B[Position Solution]
-    B --> C{RAIM Check}
-    C -->|PL < AL| D[✅ SOLUTION VALID\nPublish to ECDIS]
-    C -->|PL > AL| E[⚠️ INTEGRITY ALERT\nFlag to bridge display]
-    E --> F{Redundant GNSS\navailable?}
-    F -->|Yes| G[Switch to backup\nGNSS constellation]
-    F -->|No| H[🔴 DEAD RECKONING\nIMU + DVL only]
+    A[GNSS Raw Measurements]
+    B[Position Solution]
+    C{RAIM Check}
+    D[✅ SOLUTION VALID\nPublish to ECDIS]
+    PL>AL| E[⚠️ INTEGRITY ALERT\nFlag to bridge display]
+    F{Redundant GNSS\navailable?}
+    G[Switch to backup\nGNSS constellation]
+    H[🔴 DEAD RECKONING\nIMU + DVL only]
+    E[E]
+    B --> C
+    C -->|PL < AL| D
+    C -->|PL > AL| E
+    E --> F
+    F -->|Yes| G
+    F -->|No| H
     G --> B
 ```
 

@@ -31,6 +31,7 @@ flowchart TD
     L[\Trapezoid Alt/]
     SG1[Acquisition]
     SG2[Processing]
+    M[yo]
     subgraph SG1 [Acquisition]
         C([Stadium])
     end
@@ -42,6 +43,8 @@ flowchart TD
         F{{Hexagon}}
         G[[Subroutine]]
     end
+    subgraph SG3 [nikki]
+    end
     B --> C
     C --> D
     D -->|yes| E
@@ -51,6 +54,7 @@ flowchart TD
     H --> J
     I --> K
     J --> L
+    M --> L
     style SG1 fill:#1d2633,stroke:#1d2633,color:#dce7f7
     style SG2 fill:#2a2432,stroke:#2a2432,color:#f2e9ff
 ```

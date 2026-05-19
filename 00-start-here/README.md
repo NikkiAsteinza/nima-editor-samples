@@ -10,3 +10,20 @@ Open this project from Nima Editor to test the rich editor, Mermaid rendering, e
 4. Review `03-mermaid-diagrams` for every supported Mermaid family.
 5. Review `04-export-showcase` for nested export scenarios.
 
+Mixed sample document
+
+```mermaid
+flowchart TD
+    A[Start]
+    B{Decision}
+    C[Process A]
+    D[Process B]
+    E[End]
+    F[Test]
+    B -->|Yes| C
+    B -->|No| D
+    C --> E
+    D --> E
+    F -->|hey| D
+    style A fill:#c70a56,stroke:#c70a56,color:#eef4fb
+```
